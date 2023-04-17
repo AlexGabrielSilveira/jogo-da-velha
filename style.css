@@ -5,10 +5,11 @@ body {
 h2 {
     text-align: center;
     color: #222020;
+    margin-top: 12.5%;
 }
 #board {
-    width: 450px;
-    height: 450px;
+    width: 441px;
+    height: 441px;
     background-color:#222020;
 
     margin: 0 auto;
@@ -33,7 +34,13 @@ h2 {
     border-right: 3px solid white;
 }
 .winner {
-    background-color: #1cc08f;
+    background-color: #f13232;
     color: #222020;
 }
+#alert {
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+
 
